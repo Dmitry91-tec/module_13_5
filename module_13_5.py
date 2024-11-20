@@ -5,7 +5,7 @@ from aiogram.dispatcher import FSMContext
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 import asyncio
 
-api = "7899637913:AAE-qnqGqAZvGEeSSHLoj9cfow2EmYjVmSY"
+api = ""
 bot = Bot(token = api)                                  #Дальше понадобится api ключ, который мы получили в «BotFather». Так же переменная бота, она будет хранить объект бота, «token» будет равен вписанному ключу
 dp = Dispatcher(bot, storage = MemoryStorage())          #Понадобится «Dispatcher», который будет объектом «Dispatcher», у него будет наш бот в качестве аргументов. В качестве «Storage» будет «MemoryStorage»
 
